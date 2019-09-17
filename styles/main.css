@@ -41,22 +41,19 @@ html {
 }
 
 body {
-  min-width: 768px;
+  min-width: 900px;
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto Regular", "Arial", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 26px;
-  text-transform: uppercase;
-  color: #333333;
+  font-family: "Roboto Medium", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
 
-  background-color: #f2f2f2;
+  background-color: #849d8f;
 }
 
-.container {
+/*.container {
   position: relative;
 
   display: -webkit-flex;
@@ -175,12 +172,12 @@ input[type="radio"].visually-hidden {
 
 legend.visually-hidden {
   display: block;
-}
+}*/
 
 
 /* ------------- Header ------------- */
 
-.page-header {
+/*.page-header {
   padding: 15px 0;
   padding-top: 14px;
 
@@ -276,11 +273,11 @@ legend.visually-hidden {
 
 .main-menu__link_current:active {
   color: #81b3d2;
-}
+}*/
 
 /* ------------- Main content ------------- */
 
-.page-content {
+/*.page-content {
   flex-grow: 1;
 
   background-color: #ffffff;
@@ -291,12 +288,12 @@ legend.visually-hidden {
   padding: 100px 6% 50px;
 
   text-align: center;
-}
+}*/
 
 
 /* ------------- Intro ------------- */
 
-.intro {
+/*.intro {
   position: relative;
 
   height: 512px;
@@ -348,12 +345,12 @@ legend.visually-hidden {
   bottom: 70%;
 
   transform: translateY(70%);
-}
+}*/
 
 
 /* ------------- Advantages ------------- */
 
-.advantages {
+/*.advantages {
   position: relative;
 
   padding-top: 56px;
@@ -549,12 +546,12 @@ legend.visually-hidden {
   color: #333333;
 
   background-color: #eeeeee;
-}
+}*/
 
 
 /* ------------- Search ------------- */
 
-.search {
+/*.search {
   position: relative;
 
   text-align: center;
@@ -880,12 +877,12 @@ legend.visually-hidden {
 .search-form__button_submit {
   width: 100%;
   padding: 16px;
-}
+}*/
 
 
 /* ------------- Map ------------- */
 
-.map {
+/*.map {
   position: relative;
 
   min-height: 593px;
@@ -914,12 +911,12 @@ legend.visually-hidden {
 
 .map__iframe_visible {
   display: block;
-}
+}*/
 
 
 /* ------------- Filters ------------- */
 
-.filters {
+/*.filters {
   min-height: 215px;
   padding: 26px 6%;
   padding-bottom: 30px;
@@ -1206,12 +1203,12 @@ legend.visually-hidden {
   color: #000000;
 
   background-color: #ffffff;
-}
+}*/
 
 
 /* ------------- Search results ------------- */
 
-.search-results {
+/*.search-results {
   color: #333333;
 
   background-color: #ffffff;
@@ -1474,12 +1471,12 @@ legend.visually-hidden {
 
   background-color: #f2f2f2;
   border-radius: 2px;
-}
+}*/
 
 
 /* ------------- Footer ------------- */
 
-.page-footer {
+/*.page-footer {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -1590,12 +1587,12 @@ legend.visually-hidden {
 
 .copyrights__link:active path {
   fill: #bdbbbc;
-}
+}*/
 
 
 /* ------------- Animations ------------- */
 
-@keyframes showSearchForm {
+/*@keyframes showSearchForm {
   0% {
     transform: translate(-50%, -100%);
   }
@@ -1611,4 +1608,4 @@ legend.visually-hidden {
   100% {
     transform: translate(-50%, -100%);
   }
-}
+}*/

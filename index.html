@@ -20,25 +20,83 @@
   <div class="container">
     <header class="page-header">
       <a class="logo page-header__logo">
-        <img class="logo__image" src="images/logo/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
+        <img class="logo__image" src="images/logo/gllacy-logo.svg" width="154" height="64" alt="Логотип GllacyShop">
       </a>
       <nav class="main-menu page-header__menu">
         <ul class="main-menu__list">
           <li class="main-menu__item">
-            <a class="main-menu__link" href="#">Информация</a>
+            <a class="main-menu__link" href="catalog.html">Каталог</a>
+            <ul class="submenu main-menu__submenu">
+              <li>
+                <a class="submenu__link" href="#">Новинки</a>
+              </li>
+              <li>
+                <a class="submenu__link" href="#">Сливочное</a>
+              </li>
+              <li>
+                <a class="submenu__link" href="#">Щербеты</a>
+              </li>
+              <li>
+                <a class="submenu__link" href="#">Фруктовый лед</a>
+              </li>
+              <li>
+                <a class="submenu__link" href="#">Мелорин</a>
+              </li>
+            </ul>
           </li>
           <li class="main-menu__item">
-            <a class="main-menu__link" href="#">Фото и видео</a>
+            <a class="main-menu__link" href="#">Доставка и оплата</a>
           </li>
           <li class="main-menu__item">
-            <a class="main-menu__link" href="#">Карта штата</a>
-          </li>
-          <li class="main-menu__item">
-            <a class="main-menu__link" href="hotels.html">Гостиницы</a>
+            <a class="main-menu__link" href="#">О Компании</a>
           </li>
         </ul>
       </nav>
+      <form class="search page-header__search" method="GET" action="#" name="search">
+        <button class="search__button" type="button">
+          <span class="visually-hidden">Поиск</span>
+        </button>
+        <input class="search__field" type="search" name="search__field" placeholder="Что ищем?">
+      </form>
+      <form class="entrance page-header__entrance" method="POST" action="#" name="entrance">
+        <button class="entrance__button" type="button">Вход</button>
+        <input class="entrance__field entrance__field_email" type="email" name="entrance__field_email">
+        <input class="entrance__field entrance__field_password" type="password" name="entrance__field_password">
+        <a class="entrance__link" href="#">Забыли пароль?</a>
+        <a class="entrance__link" href="#">Новая регистрация</a>
+        <button class="entrance__button entrance__button_submit" type="submit">Войти</button>
+      </form>
+      <form class="cart page-header__cart" method="POST" action="#" name="cart">
+        <button class="cart__button" type="button">Корзина</button>
+        <ul>
+          <li>
+            <button type="button">
+              <span class="visually-hidden">Убрать из корзины</span>
+            </button>
+            <img class="" src="" alt="">
+            <p>Пломбир с апельсиновым джемом</p>
+            <p>1,5 кг х <span>200</span> руб.</p>
+            <p><span>300</span> руб.</p>
+          </li>
+          <li>
+            <button type="button">
+              <span class="visually-hidden">Убрать из корзины</span>
+            </button>
+            <img class="" src="" alt="">
+            <p>Клубничный пломбир с присыпкой из белого шоколада</p>
+            <p>1,5 кг х <span>200</span> руб.</p>
+            <p><span>450</span> руб.</p>
+          </li>
+        </ul>
+        <p>Итого: <span>750</span> руб.</p>
+        <button class="cart__button cart__button_submit" type="submit">Оформить заказ</button>
+      </form>
+      <div class="contacts">
+        <p>С 10 до 20, ежедневно</p>
+        <p>8 812 450-25-25</p>
+      </div>
     </header>
+
     <main class="page-content">
       <h1 class="visually-hidden">Седона</h1>
       <section class="intro">
