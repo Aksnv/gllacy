@@ -1,21 +1,30 @@
 /* ------------- Fonts ------------- */
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "Roboto Regular";
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans"), local("PTSans"),
-       url(../fonts/web/ptsans.woff2) format("woff2"),
-       url(../fonts/web/ptsans.woff) format("woff");
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+       url(../fonts/web/roboto.woff2) format("woff2"),
+       url(../fonts/web/roboto.woff) format("woff");
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "Roboto Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+       url(../fonts/web/robotomedium.woff2) format("woff2"),
+       url(../fonts/web/robotomedium.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Bold";
   font-style: normal;
   font-weight: 700;
-  src: local("PT Sans Bold"), local("PTSansBold"),
-       url(../fonts/web/ptsansbold.woff2) format("woff2"),
-       url(../fonts/web/ptsansbold.woff) format("woff");
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+       url(../fonts/web/robotobold.woff2) format("woff2"),
+       url(../fonts/web/robotobold.woff) format("woff");
 }
 
 
@@ -36,7 +45,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "Roboto Regular", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
