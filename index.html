@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <title>Глейси</title>
-  <meta name="description" content="Глейси - интернет-магазин вкуснейшего мороженного">
+  <meta name="description" content="Глейси - онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес">
   <link rel="stylesheet" href="styles/normalize.min.css">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -20,7 +20,7 @@
   <header class="page-header">
     <div class="container">
       <a class="logo page-header__logo">
-        <img class="logo__image" src="images/logo/gllacy-logo.svg" width="154" height="64" alt="Логотип GllacyShop">
+        <img class="logo__image" src="images/logo/gllacy-logo.svg" width="154" height="64" alt="Логотип Глейси">
       </a>
       <nav class="main-menu page-header__menu">
         <ul class="main-menu__list">
@@ -58,7 +58,7 @@
         </button>
         <input class="search__field" type="search" name="search__field" placeholder="Что ищем?">
       </form>
-      <form class="entrance page-header__entrance" method="POST" action="#" name="entrance">
+      <form class="entrance page-header__entrance" method="post" action="#" name="entrance">
         <button class="entrance__button" type="button">Вход</button>
         <input class="entrance__field entrance__field_email" type="email" name="entrance__field_email">
         <input class="entrance__field entrance__field_password" type="password" name="entrance__field_password">
@@ -66,7 +66,7 @@
         <a class="entrance__link" href="#">Новая регистрация</a>
         <button class="entrance__button entrance__button_submit" type="submit">Войти</button>
       </form>
-      <form class="cart page-header__cart" method="POST" action="#" name="cart">
+      <form class="cart page-header__cart" method="post" action="#" name="cart">
         <button class="cart__button" type="button">Корзина</button>
         <ul>
           <li>
@@ -97,12 +97,34 @@
       </div>
     </div>
   </header>
-
   <main class="page-content">
-    <h1 class="visually-hidden">Седона</h1>
-    <section class="intro">
-      <h2 class="visually-hidden">Добро пожаловать в&nbsp;Седону!</h2>
-      <img class="intro__image" src="images/intro.jpg" width="1200" height="800" alt="Добро пожаловать в Седону!">
+    <h1 class="visually-hidden">Магазин Глэйси</h1>
+    <section class="slider">
+      <ul class="slider__list">
+        <li class="slider__item slider__item_1 slider__item_active">
+          <p class="slider__text">Крем-брюле и пломбир с малиновым джемом</p>
+          <a class="button slider__button" href="#">Давайте оба!</a>
+        </li>
+        <li class="slider__item slider__item_2">
+          <p class="slider__text">Шоколадный пломбир и лимонный сорбет </p>
+          <a class="button slider__button" href="#">Давайте оба!</a>
+        </li>
+        <li class="slider__item slider__item_3">
+          <p class="slider__text">Пломбир с помадкой и клубничный щербет</p>
+          <a class="button slider__button" href="#">Давайте оба!</a>
+        </li>
+      </ul>
+      <ul class="indicators slider__indicators">
+        <li class="indicator indicator_active">
+          <span class="visually-hidden">1</span>
+        </li>
+        <li class="indicator">
+          <span class="visually-hidden">2</span>
+        </li>
+        <li class="indicator">
+          <span class="visually-hidden">3</span>
+        </li>
+      </ul>
     </section>
     <div class="wrapper">
       <section class="offer inner">
