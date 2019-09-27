@@ -98,13 +98,11 @@
     </div>
   </header>
   <main class="page-content">
-    <section class="breadcrumbs">
-      <ul class="breadcrumbs__list">
-        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Главная</a></li>
-        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Каталог</a></li>
-        <li class="breadcrumbs__item breadcrumbs__item_current">Сливочное</li>
-      </ul>
-    </section>
+    <ul class="breadcrumbs">
+      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html">Главная</a></li>
+      <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Каталог</a></li>
+      <li class="breadcrumbs__item breadcrumbs__item_current">Сливочное</li>
+    </ul>
     <h1>Сливочное мороженое</h1>
     <section class="filters">
       <form class="filters-form filters__form" method="post" action="#" name="filters-form">
@@ -151,7 +149,28 @@
         <button class="filters-form__button" type="submit">Применить</button>
       </form>
     </section>
-
+    <ul class="pagination">
+      <li class="pagination__item pagination__item_current">
+        <a class="pagination__link">1</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">2</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">3</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">4</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">5</a>
+      </li>
+      <li class="pagination__item">
+        <a class="pagination__link" href="#">
+          <span class="visually-hidden">next page</span>
+        </a>
+      </li>
+    </ul>
   </main>
   <footer class="page-footer">
     <div class="container">
